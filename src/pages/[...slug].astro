@@ -82,10 +82,15 @@ const projectImages = await Promise.all(
     <article>
       <p class="max-w-[45ch] sm:text-lg">{intro}</p>
 
-      <div class="flex gap-8 my-8 tablet:my-4">
-        <Button link={demoLink} value="Demo" />
-        <Button link={repoLink} value="Repo" />
-      </div>
+      {
+        demoLink &&
+          (repoLink && (
+            <div class="flex gap-8 my-8 tablet:my-4">
+              <Button link={demoLink} value="Demo" />
+              <Button link={repoLink} value="Repo" />
+            </div>
+          ))
+      }
     </article>
 
     <div>

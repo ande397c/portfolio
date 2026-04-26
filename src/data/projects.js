@@ -16,11 +16,11 @@ export const projectData = [
     slug: 'projects/twitter-clone/',
     heading: 'Twitter clone',
     projectImg: twitterIntro,
-    desc: 'Full stack Twitter clone hostet with PythonAnywhere. Check in and see what people are tweeting these days.',
+    desc: 'Full stack Twitter clone made with JavaScript, Tailwind, Python, and SQLite',
     tag: 'twitter',
     intro:
-      'This project was part of my 1. semester Web Developement exam. The overall project included a long list of features and requirements, like creating, retweeting and liking tweets. This project also served as my introduction to Python, Bottle and SQL databases. To login, please use email: elonmusk@gmail.com and password: password.',
-    demoLink: 'https://ande.eu.pythonanywhere.com/',
+      'This project was part of my 1. semester Web Developement exam. The overall project included a long list of features and requirements, like creating, retweeting and liking tweets. This project also served as my introduction to Python, Bottle and SQL databases.',
+    // demoLink: 'https://ande.eu.pythonanywhere.com/',
     repoLink: '',
     stack: ['Tailwind', 'JavaScript', 'Python', 'Bottle', 'SQLite'],
     navigateLinks: {
@@ -51,7 +51,7 @@ export const projectData = [
     desc: 'Can you guess which movie has the highest rating? Try and see if you can beat the current highscore.',
     tag: 'imdb',
     intro:
-      'The idea for the project sprung from an early unbound fascination and interest for movies. The goal for the user is to correctly guess the movie with highest rating. The user can submit the score and compare it against other users. The site uses offical Imdb rating scores and Supabase for storing the user data. Future plans for this project includes: Ability to choose categories, difficulties and more.',
+      'The idea for the project sprung from an early interest for movies. The goal for the user is to correctly guess the movie with highest rating. The user can submit the score and compare it against other users. The site uses offical Imdb rating scores and Supabase for storing the user data. Future plans for this project includes: Ability to choose categories, difficulties and more.',
     demoLink: 'https://rating-guess.netlify.app/',
     repoLink: 'https://github.com/ande397c/react-movie-rating/tree/main',
     stack: ['Tailwind', 'React', 'TypeScript', 'Supabase'],
