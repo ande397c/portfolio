@@ -21,7 +21,6 @@ export const projectData = [
     intro:
       'This project was part of my 1. semester Web Developement exam. The overall project included a long list of features and requirements, like creating, retweeting and liking tweets. This project also served as my introduction to Python, Bottle and SQL databases.',
     // demoLink: 'https://ande.eu.pythonanywhere.com/',
-    repoLink: '',
     stack: ['Tailwind', 'JavaScript', 'Python', 'Bottle', 'SQLite'],
     navigateLinks: {
       linkPrevious: '',
@@ -36,7 +35,7 @@ export const projectData = [
     tag: 'countries',
     intro:
       'This project is an advanced challenge on Frontend Mentor. The goal for me was to improve my JavaScript skills while incorporating the use of an external API. The project supports dark/light theme. In retrospect, I would have liked to include the use of a JavaScript framework in this project.',
-    demoLink: 'https://frontend-mentor-api-countries.netlify.app/',
+    // demoLink: 'https://frontend-mentor-api-countries.netlify.app/',
     repoLink: 'https://github.com/ande397c/Frontend-Mentor-rest-countries-api',
     stack: ['HTML', 'CSS', 'JavaScript'],
     navigateLinks: {

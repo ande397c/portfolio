@@ -21,7 +21,6 @@ export async function getStaticPaths() {
       repoLink,
       stack,
       navigateLinks,
-      screenshots,
       tag,
     }) => {
       return {
@@ -34,7 +33,6 @@ export async function getStaticPaths() {
           repoLink,
           stack,
           navigateLinks,
-          screenshots,
           tag,
         },
       }
@@ -83,13 +81,12 @@ const projectImages = await Promise.all(
       <p class="max-w-[45ch] sm:text-lg">{intro}</p>
 
       {
-        demoLink &&
-          (repoLink && (
-            <div class="flex gap-8 my-8 tablet:my-4">
-              <Button link={demoLink} value="Demo" />
-              <Button link={repoLink} value="Repo" />
-            </div>
-          ))
+        (demoLink || repoLink) && (
+          <div class="flex gap-8 my-8 tablet:my-4">
+            {demoLink && <Button link={demoLink} value="Demo" />}
+            {repoLink && <Button link={repoLink} value="Repo" />}
+          </div>
+        )
       }
     </article>
 
